@@ -1,15 +1,19 @@
 *body{
     height: 100vh;
     margin: 0;
+    position: relative;
 
 }
 .contact-form{
     justify-content: center;
-
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50px;
     border-radius: 5px;
     box-shadow: 5px 5px 5px 5px;
-    height:fit-content;
-    width: 50%;
+    width: 300px;
     margin: 30px;
     padding: 40px;
     text-align: center;
@@ -34,4 +38,9 @@
     display: block;
     margin: 5px;
 
+}
+.contact-form1 input[type="text"],
+.contact-form1 input[type="email"],
+.contact-form1 input[ type="message"]{
+    width: 100%;
 }
