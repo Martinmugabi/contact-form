@@ -42,5 +42,8 @@
 .contact-form1 input[type="text"],
 .contact-form1 input[type="email"],
 .contact-form1 input[ type="message"]{
-    width: 100%;
+    width: 300%;
+    height: 30px;
+    border-radius: 10px;
+
 }
