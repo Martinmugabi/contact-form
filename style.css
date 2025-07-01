@@ -53,4 +53,43 @@
 
 
 
-
+ /* syle <div> element wisdom886 */
+.wisdom886{
+    display: flex;
+    gap: 15px;
+}
+#wrap{
+    flex-wrap: wrap;
+}
+.wisdom47{
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    justify-content: center;
+    width:200px ;
+    flex-wrap: wrap;
+    height:fit-content;
+    text-align: center;
+}
+/* style <div> element kam22 */
+.kam22{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px; 
+}
+#wrap{
+    flex-wrap: wrap;
+}
+.wisdom6{
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px;
+    justify-content: center;
+    width:200px ;
+    flex-wrap: wrap;
+    height:fit-content;
+    text-align: center;
+}
+.wisdom6>img{
+    border-radius: 60%;
+}
